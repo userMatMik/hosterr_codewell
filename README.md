@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://62ec0ce8a304d70ff2762ceb--magical-peony-060ce4.netlify.app/}">
+    <a href="https://62ec0ce8a304d70ff2762ceb--magical-peony-060ce4.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/userMatMik/hosterr_codewell}">
+    <a href="https://github.com/userMatMik/hosterr_codewell">
       Solution
     </a>
     <span> | </span>
