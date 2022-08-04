@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Hosterr</title>
+</head>
+<body>
+    <div id="mobile-nav" class="mobile-nav">
+        <div class="mobile-nav__header">
+            <img src="./Assets/Logo.svg" alt="" class="logo">
+            <button onclick="toggleMobileNav()"><i class="fa fa-2x fa-close hamburger-btn"></i></button>
+        </div>
+        <nav class="mobile-nav__list">
+            <a href="" class="mobile-nav__item">Plans</a>
+            <a href="" class="mobile-nav__item">Find domain</a>
+            <a href="" class="mobile-nav__item">Why Hosterr</a>
+            <a href="" class="mobile-nav__item sign-in">Sign in</a>
+            <button class="btn">Join Waitlist</button>
+        </nav>
+        
+    </div>
+    <div class="landing-page">
+        <header class="header">
+            <div class="logo-container">
+                <img src="./Assets/Logo.svg" alt="" class="logo">
+                <a href="#" class="btn-gradient">Hosterr is hiring!</a>
+            </div>
+            <button onclick="toggleMobileNav()" class="hamburger-btn"><i class="fa fa-reorder fa-2x"></i></button>
+            <nav class="nav">
+                <a href="" class="link nav__item">Plans</a>
+                <a href="" class="link nav__item">Find domain</a>
+                <a href="" class="link nav__item">Why Hosterr</a>       
+            </nav>
+            <div class="nav__account">
+                <a href="" class="link nav__item sign-in">Sign in</a>
+                <button class="btn">Join Waitlist</button>
+            </div> 
+        </header>
+        <main class="hero">
+            <div class="hero__img-container">
+                <img src="./Assets/Blue_Shape.svg" alt="" class="hero__img">
+                <img src="./Assets/Pink_Shape.svg" alt="" class="hero__img pink-shape">
+                <img src="./Assets/Purple_Shape.svg" alt="" class="hero__img purple-shape">
+                <img src="./Assets/Hero_Image.png" alt="" class="hero__img">
+            </div>
+            <div class="hero-text">
+                <h1 class="hero-text__title">Host your website in less then 5 minutes.</h1>
+                <p class="hero-text__small">With Hosterr, get your website up and running in no less than 5 minutes with the most competitive pricing packages available online.</p>
+                <form>
+                    <input type="email" id="email" name="email" placeholder="Enter e-mail address">
+                    <button class="btn">Join Waitlist</button>
+                </form>
+                <div class="spam-info">
+                    <img src="./Assets/Checkmark.svg" alt="">
+                    <span class="spam-info__text">No spam, ever. Unsubscribe anytime.</span>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="social">
+                <a href="#" class="link social__link">Facebook</a>
+                <a href="#" class="link social__link">Instagram</a>
+                <a href="#" class="link social__link">Twitter</a>
+            </div>
+            <div class="help">
+                <img src="./Assets/Help_Avatar.svg" alt="">
+                <div class="help__text">
+                    <span class="help__text--up">Have any questions?</span>
+                    <span class="help__text--down">Talko to a specialist</span>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <script>
+        function toggleMobileNav() {
+            const mobileNavElement = document.querySelector('#mobile-nav');
+
+            if (mobileNavElement.classList.contains('mobile-nav--open')) {
+                mobileNavElement.classList.remove('mobile-nav--open')
+            } else {
+                mobileNavElement.classList.add('mobile-nav--open')
+            }
+        }
+        
+
+
+    </script>
+
+    
+</body>
+</html>
